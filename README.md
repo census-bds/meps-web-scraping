@@ -66,7 +66,7 @@ The Scrapy pipeline only downloads PDFs, without regard to which are SBC forms a
 
 We store the results in the database: we insert a count of pdfs and a count of SBCs found back into the `gov_info` table. The `sbc_check` table tracks gov unit IDs, filepaths, and whether each is an SBC form.  
 
-Once we identify the SBCs, we use 'scrape/move_sbcs.py` to move them into another directory with human-readable names. Optionally, this module has a method to delete non-SBC PDFs to reduce the project storage needs.
+Once we identify the SBCs, we use `scrape/move_sbcs.py` to move them into another directory with human-readable names. Optionally, this module has a method to delete non-SBC PDFs to reduce the project storage needs.
 
 ##### To run
 
