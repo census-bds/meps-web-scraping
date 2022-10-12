@@ -1,0 +1,13 @@
+scrapy
+pandas
+google-api-python-client
+urllib3
+ipython
+#pdfminer
+pdfminer.six
+pathlib
+openpyxl
+xlrd
+tldextract
+retrying
+
